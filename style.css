@@ -1,0 +1,44 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(212, 45%, 89%);
+    overflow: hidden;
+}
+.card {
+    display: grid;
+    grid-template-columns: 380px;
+    grid-template-rows: 380px 70px 105px;
+    grid-template-areas: "image" "heading" "text";
+
+    font-family: 'Outfit', sans-serif;
+    border-radius: 18px;
+    background: hsl(0, 0%, 100%);
+}
+.qr-image{
+    grid-area: image;
+    background-image: url(images/image-qr-code.png);
+    border-radius: 18px;
+    background-size: 100%;
+    margin: 18px;
+    align-items: center;
+}
+p {
+    grid-area: text;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 15px;
+    margin: 10px 50px; 
+}
+h2 {
+    grid-area: heading;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    margin: 5px 50px;
+}
