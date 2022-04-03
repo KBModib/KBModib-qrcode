@@ -22,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [QR code solution](https://github.com/KBModib/KBModib-qrcode.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://melodic-cheesecake-d0bf9d.netlify.app/)
 
 ## My process
 
